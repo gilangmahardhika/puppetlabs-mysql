@@ -32,8 +32,8 @@ describe 'mysql::bindings' do
   end
 
   context 'Debian' do
-    it_behaves_like 'bindings', 'Debian', 'Debian', 'libmysql-java', 'libdbd-mysql-perl', 'php5-mysql', 'python-mysqldb', 'libmysql-ruby'
-    it_behaves_like 'bindings', 'Debian', 'Ubuntu', 'libmysql-java', 'libdbd-mysql-perl', 'php5-mysql', 'python-mysqldb', 'libmysql-ruby'
+    it_behaves_like 'bindings', 'Debian', 'Debian', 'libmysql-java', 'libdbd-mysql-perl', 'php5-mysql', 'python-mysqldb', 'ruby-mysql'
+    it_behaves_like 'bindings', 'Debian', 'Ubuntu', 'libmysql-java', 'libdbd-mysql-perl', 'php5-mysql', 'python-mysqldb', 'ruby-mysql'
   end
 
   context 'freebsd' do
