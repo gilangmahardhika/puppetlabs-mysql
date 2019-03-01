@@ -25,7 +25,7 @@ describe 'mysql::bindings class' do
     java_package = 'libmysql-java'
     perl_package   = 'libdbd-mysql-perl'
     python_package = 'python-mysqldb'
-    ruby_package   = 'libmysql-ruby'
+    ruby_package   = 'ruby-mysql'
   when 'FreeBSD'
     java_package = 'databases/mysql-connector-java'
     perl_package   = 'p5-DBD-mysql'
